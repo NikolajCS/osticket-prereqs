@@ -23,10 +23,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>List of Prerequisites</h2>
 
 - Item 1 ![image](https://github.com/user-attachments/assets/f1968e4e-bca4-4f99-a345-4f1d54fac6fb)
+- Create a Virtual Machine
 
 - Item 2 ![image](https://github.com/user-attachments/assets/1695f040-8978-42fc-a161-6ad45244c5e6)
   
-         Enable IIS (Internet Information Services) and CGI
+         Enable IIS (Internet Information Services) and CGI in Windows
   
 - Item 3 ![image](https://github.com/user-attachments/assets/22bd1150-22b7-448a-be2d-c1a5662de3b7)
 - ![image](https://github.com/user-attachments/assets/d32ffbdb-fd60-449c-bf0e-a9abd0fd73f5)
@@ -34,9 +35,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Install PHP Manager + Rewrite Module
 
 
-- Item 4 ![image](https://github.com/user-attachments/assets/6af8bbe0-bb74-4a46-a7ec-a380da5b5244)
+- Item 4 ![image](https://github.com/user-attachments/assets/6af8bbe0-bb74-4a46-a7ec-a380da5b5244) Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
 
-- Item 5 ![image](https://github.com/user-attachments/assets/23f4d942-9942-4b2a-9c13-870819243e25)
+- Item 5 ![image](https://github.com/user-attachments/assets/23f4d942-9942-4b2a-9c13-870819243e25) Install MySQL,  (mysql-5.5.62-win32.msi)
+Typical Setup -> Standard Configuration  
+
 
 
 <h2>Installation Steps</h2>
