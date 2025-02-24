@@ -34,8 +34,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Install PHP Manager + Rewrite Module
 
 
-- Item 4
-- Item 5
+- Item 4 ![image](https://github.com/user-attachments/assets/6af8bbe0-bb74-4a46-a7ec-a380da5b5244)
+
+- Item 5 ![image](https://github.com/user-attachments/assets/23f4d942-9942-4b2a-9c13-870819243e25)
+
 
 <h2>Installation Steps</h2>
 
