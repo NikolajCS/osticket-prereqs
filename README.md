@@ -25,8 +25,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 1 ![image](https://github.com/user-attachments/assets/f1968e4e-bca4-4f99-a345-4f1d54fac6fb)
 
 - Item 2 ![image](https://github.com/user-attachments/assets/1695f040-8978-42fc-a161-6ad45244c5e6)
-- Enable IIS (Internet Information Services and CGI
-- Item 3
+         Enable IIS (Internet Information Services) and CGI
+- Item 3 ![image](https://github.com/user-attachments/assets/22bd1150-22b7-448a-be2d-c1a5662de3b7)
+- ![image](https://github.com/user-attachments/assets/d32ffbdb-fd60-449c-bf0e-a9abd0fd73f5)
+        Install PHP Manager + Rewrite Module
+
+
 - Item 4
 - Item 5
 
