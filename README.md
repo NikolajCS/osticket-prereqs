@@ -24,8 +24,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Item 1 ![image](https://github.com/user-attachments/assets/f1968e4e-bca4-4f99-a345-4f1d54fac6fb)
 
-
-- Item 2
+- Item 2 https://docs.google.com/document/d/1DyjX8LeVU98LjhXO2t2K2F0aHywI2N9GD57T3taO5qo/edit?tab=t.0
+- Enable IIS (Internet Information Services and CGI
 - Item 3
 - Item 4
 - Item 5
