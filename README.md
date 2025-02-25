@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 2 Install PHP Manager + Rewrite Module
 - Item 3 Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
 - Item 4 Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
-- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip
+- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
 
 
 <h2>Installation Steps</h2>
