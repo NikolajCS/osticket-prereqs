@@ -26,6 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 2 Install PHP Manager + Rewrite Module
 - Item 3 Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
 - Item 4 Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
+- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip
 
 
 <h2>Installation Steps</h2>
@@ -60,7 +61,13 @@ Install Rewrite Module, (rewrite_amd64_en-US.msi)
 Create the directory C:\PHP -> Open File Explorer -> Open C Drive and create a new folder within the C drive and name it PHP
 
 
+
 ![image](https://github.com/user-attachments/assets/45c705f2-9d0d-4a4a-8746-58a361499577)
+
+Unzip PHP 7.3.8 -> Extract all -> Browse -> Select The folder PHP 
+
+![image](https://github.com/user-attachments/assets/75fbb65d-e3f6-45d5-889d-0986ba907bb6)
+
 
 
  Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
