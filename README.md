@@ -36,28 +36,44 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 
-![image](https://github.com/user-attachments/assets/c9288e02-0d7b-4c81-a3b2-438a42a01160)
-
 Open up Windows Features -> Enable IIS (Internet Information Services) ->  Expand it -> Expand World Wide Web -> Expand Application Devolepment Features and enable CGI. 
 
 
+![image](https://github.com/user-attachments/assets/c9288e02-0d7b-4c81-a3b2-438a42a01160)
 
-![image](https://github.com/user-attachments/assets/b3426c48-a041-4c78-9611-6cb75de35fcd)
+
 
 Install PHP Manager, (PHPManagerForIIS_V1.5.0.msi)
 
 
-![image](https://github.com/user-attachments/assets/bb998225-8ce2-4ec8-8228-9beb688d8dee)
+![image](https://github.com/user-attachments/assets/b3426c48-a041-4c78-9611-6cb75de35fcd)
+
+
 
 Install Rewrite Module, (rewrite_amd64_en-US.msi)
 
-![image](https://github.com/user-attachments/assets/bc010c84-3283-4bad-974a-636ad1b0c230)
+
+![image](https://github.com/user-attachments/assets/bb998225-8ce2-4ec8-8228-9beb688d8dee)
+
+
+
+Create the directory C:\PHP -> Open File Explorer -> Open C Drive and create a new folder within the C drive and name it PHP
+
+
+![image](https://github.com/user-attachments/assets/45c705f2-9d0d-4a4a-8746-58a361499577)
+
 
  Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
+ 
+
+![image](https://github.com/user-attachments/assets/bc010c84-3283-4bad-974a-636ad1b0c230)
+
+
+Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
+
 
  ![image](https://github.com/user-attachments/assets/c176992f-19d7-4f2e-a693-436f28c7fcf6)
 
- Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
 
 
 
