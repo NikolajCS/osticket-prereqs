@@ -22,41 +22,51 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1 ![image](https://github.com/user-attachments/assets/f1968e4e-bca4-4f99-a345-4f1d54fac6fb)
-- Create a Virtual Machine
-
-- Item 2 ![image](https://github.com/user-attachments/assets/1695f040-8978-42fc-a161-6ad45244c5e6)
-  
-         Enable IIS (Internet Information Services) and CGI in Windows
-  
-- Item 3 ![image](https://github.com/user-attachments/assets/22bd1150-22b7-448a-be2d-c1a5662de3b7)
-- ![image](https://github.com/user-attachments/assets/d32ffbdb-fd60-449c-bf0e-a9abd0fd73f5)
-
-  Install PHP Manager + Rewrite Module
-
-
-- Item 4 ![image](https://github.com/user-attachments/assets/6af8bbe0-bb74-4a46-a7ec-a380da5b5244) Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
-
-- Item 5 ![image](https://github.com/user-attachments/assets/23f4d942-9942-4b2a-9c13-870819243e25) Install MySQL,  (mysql-5.5.62-win32.msi)
-Typical Setup -> Standard Configuration  
-
+- Item 1 Install and enable IIS + CGI in windows features
+- Item 2 Install PHP Manager + Rewrite Module
+- Item 3 Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
+- Item 4 Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
 
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="![image](https://github.com/user-attachments/assets/63b8c082-2518-4a55-9546-cedece6cd42e)
-"
+<img src="![image](https://github.com/user-attachments/assets/d95f32e3-821a-4352-a31b-61765525f14f)
 "/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+
+![image](https://github.com/user-attachments/assets/c9288e02-0d7b-4c81-a3b2-438a42a01160)
+
+Open up Windows Features -> Enable IIS (Internet Information Services) ->  Expand it -> Expand World Wide Web -> Expand Application Devolepment Features and enable CGI. 
+
+
+
+![image](https://github.com/user-attachments/assets/b3426c48-a041-4c78-9611-6cb75de35fcd)
+
+Install PHP Manager, (PHPManagerForIIS_V1.5.0.msi)
+
+
+![image](https://github.com/user-attachments/assets/bb998225-8ce2-4ec8-8228-9beb688d8dee)
+
+Install Rewrite Module, (rewrite_amd64_en-US.msi)
+
+![image](https://github.com/user-attachments/assets/bc010c84-3283-4bad-974a-636ad1b0c230)
+
+ Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
+
+ ![image](https://github.com/user-attachments/assets/c176992f-19d7-4f2e-a693-436f28c7fcf6)
+
+ Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
+
+
+
+
+
 <br />
 
 <p>
-<img src="![image](https://github.com/user-attachments/assets/bec09ec4-262b-410f-a480-3a829c3e89d5)
-"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
