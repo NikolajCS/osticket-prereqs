@@ -27,6 +27,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 3 Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
 - Item 4 Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
 - Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
+- Download osTicket https://osticket.com/download/
 
 
 <h2>Installation Steps</h2>
@@ -82,7 +83,24 @@ Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
  ![image](https://github.com/user-attachments/assets/c176992f-19d7-4f2e-a693-436f28c7fcf6)
 
 
+Now open IIS as an Admin -> click on PHP Manager within IIS -> and then click on register new PHP Version -> locate the php folder we created on the C drive and select the Application within in PHP folder "php-cgi"
 
+
+![image](https://github.com/user-attachments/assets/28c757bd-dbe0-47b5-8237-571e6ac59b7a)
+
+Extract osTicket -> Then move the upload folder into “c:\inetpub\wwwroot -> Then rename the "upload" folder to "osTicket"
+
+
+![image](https://github.com/user-attachments/assets/5fc2c1c3-186b-4f38-b286-1a951ca79795)
+
+You will need to reload IIS. Stop the server and start it.
+Inside IIS Manager expand osTicket -> Sites -> Default Web site -> click on osTicket -> Browse *:80 (http)
+
+![image](https://github.com/user-attachments/assets/c926d836-a0af-4550-a317-92a9a035533a)
+
+The site should look like this 
+
+![image](https://github.com/user-attachments/assets/a0eb6c1c-4176-4546-bd49-9294abc8ce3b)
 
 
 
