@@ -102,6 +102,31 @@ The site should look like this
 
 ![image](https://github.com/user-attachments/assets/a0eb6c1c-4176-4546-bd49-9294abc8ce3b)
 
+We can enable missing extentions in IIS. Sites -> Default Web Site -> click on osTicket -> Double Click PHP Manager -> "Enable or Disable an Extention" For  this totorial I've enabled
+php_imap.dll, php_intl.dll, php_opcache.dll 
+
+![image](https://github.com/user-attachments/assets/46039970-ad60-4998-8fc9-a445eda4ab30)
+
+Rename: ost-sampleconfig.php to ost-config.php
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/user-attachments/assets/b8da13f2-c29e-4329-b707-050ba89098ee)
+
+C:\inetpub\wwwroot\osTicket\include\ost-config.php -> right click -> properties -> Security -> Advanced - Add - Set Principal - Allow full control to the user - For this toturial I'II give full control to everyone (not optimal for security in real life scenario) 
+![image](https://github.com/user-attachments/assets/26fbd4e9-d0a4-40b0-b3c0-b6d0ab1a1d7e)
+
+From the “osTicket-Installation-Files” folder, install HeidiSQL.
+Open Heidi SQL
+Create a new session,
+Connect to the session
+Create a database called “osTicket”
+
+
+Go back to osTicket (in the browser) -> Continue Setup -> Configure Basic Installation -> Install
+![image](https://github.com/user-attachments/assets/77ccea6b-17fa-468f-921c-a97fc6957a8d)
+
+End
 
 
 <br />
