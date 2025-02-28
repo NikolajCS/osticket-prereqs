@@ -94,7 +94,7 @@ Extract osTicket -> Then move the upload folder into “c:\inetpub\wwwroot -> Th
 ![image](https://github.com/user-attachments/assets/5fc2c1c3-186b-4f38-b286-1a951ca79795)
 
 You will need to reload IIS. Stop the server and start it.
-Inside IIS Manager expand osTicket -> Sites -> Default Web site -> click on osTicket -> Browse *:80 (http)
+Inside IIS Manager expand osTicket -> Sites -> Default Web site -> click on osTicket -> Click on Browse *:80 (http)
 
 ![image](https://github.com/user-attachments/assets/c926d836-a0af-4550-a317-92a9a035533a)
 
@@ -102,7 +102,7 @@ The site should look like this
 
 ![image](https://github.com/user-attachments/assets/a0eb6c1c-4176-4546-bd49-9294abc8ce3b)
 
-We can enable missing extentions in IIS. Sites -> Default Web Site -> click on osTicket -> Double Click PHP Manager -> "Enable or Disable an Extention" For  this totorial I've enabled
+We can enable missing extentions in IIS. Sites -> Default Web Site -> click on osTicket -> Double Click PHP Manager -> "Enable or Disable an Extention" For  this tutorial I have enabled
 php_imap.dll, php_intl.dll, php_opcache.dll 
 
 ![image](https://github.com/user-attachments/assets/46039970-ad60-4998-8fc9-a445eda4ab30)
@@ -113,7 +113,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 ![image](https://github.com/user-attachments/assets/b8da13f2-c29e-4329-b707-050ba89098ee)
 
-C:\inetpub\wwwroot\osTicket\include\ost-config.php -> right click -> properties -> Security -> Advanced - Add - Set Principal - Allow full control to the user - For this toturial I'II give full control to everyone (not optimal for security in real life scenario) 
+C:\inetpub\wwwroot\osTicket\include\ost-config.php -> right click -> properties -> Security -> Advanced - Add - Set Principal - Allow full control to the user - For this tutorial I will give full control to everyone (not optimal for security in a real life scenario) 
 ![image](https://github.com/user-attachments/assets/26fbd4e9-d0a4-40b0-b3c0-b6d0ab1a1d7e)
 
 From the “osTicket-Installation-Files” folder, install HeidiSQL.
