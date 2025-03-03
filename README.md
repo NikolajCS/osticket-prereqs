@@ -26,8 +26,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 2 Install PHP Manager + Rewrite Module
 - Item 3 Install Microsoft Visual C++ Redistributable x86, VC_redist.x86.exe.
 - Item 4 Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
-- Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
-- Download osTicket https://osticket.com/download/
+- Item 5 Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip)
+- Item 6 Download osTicket https://osticket.com/download/
+- Item 7 Download Heidi SQL
 
 
 <h2>Installation Steps</h2>
@@ -116,7 +117,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 C:\inetpub\wwwroot\osTicket\include\ost-config.php -> right click -> properties -> Security -> Advanced - Add - Set Principal - Allow full control to the user - For this tutorial I will give full control to everyone (not optimal for security in a real life scenario) 
 ![image](https://github.com/user-attachments/assets/26fbd4e9-d0a4-40b0-b3c0-b6d0ab1a1d7e)
 
-From the “osTicket-Installation-Files” folder, install HeidiSQL.
+install HeidiSQL.
 Open Heidi SQL
 Create a new session,
 Connect to the session
