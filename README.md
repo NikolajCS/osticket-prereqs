@@ -80,7 +80,7 @@ Install MySQL, (mysql-5.5.62-win32.msi) Typical Setup -> Standard Configuration
  ![image](https://github.com/user-attachments/assets/c176992f-19d7-4f2e-a693-436f28c7fcf6)
 
 
-Now open IIS as an Admin -> click on PHP Manager within IIS -> and then click on register new PHP Version -> locate the php folder we created on the C drive and select the Application within in PHP folder "php-cgi"
+Now open IIS as an Admin -> click on PHP Manager within IIS -> and then click on register new PHP Version -> locate the php folder we created on the C drive and select the Application within the PHP folder "php-cgi"
 
 
 ![image](https://github.com/user-attachments/assets/28c757bd-dbe0-47b5-8237-571e6ac59b7a)
@@ -90,7 +90,7 @@ Extract osTicket -> Then move the upload folder into “c:\inetpub\wwwroot -> Th
 
 ![image](https://github.com/user-attachments/assets/5fc2c1c3-186b-4f38-b286-1a951ca79795)
 
-You will need to reload IIS. Stop the server and start it.
+You will need to reload IIS. Stop the server and start it again.
 Inside IIS Manager expand osTicket -> Sites -> Default Web site -> click on osTicket -> Click on Browse *:80 (http)
 
 ![image](https://github.com/user-attachments/assets/c926d836-a0af-4550-a317-92a9a035533a)
@@ -111,6 +111,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 ![image](https://github.com/user-attachments/assets/b8da13f2-c29e-4329-b707-050ba89098ee)
 
 C:\inetpub\wwwroot\osTicket\include\ost-config.php -> right click -> properties -> Security -> Advanced - Add - Set Principal - Allow full control to the user - For this tutorial I will give full control to everyone (not optimal for security in a real life scenario) 
+
 ![image](https://github.com/user-attachments/assets/26fbd4e9-d0a4-40b0-b3c0-b6d0ab1a1d7e)
 
 install HeidiSQL.
@@ -122,6 +123,7 @@ Create a database called “osTicket”
 
 Go back to osTicket (in the browser) -> Continue Setup -> Configure Basic Installation -> Install
 ![image](https://github.com/user-attachments/assets/77ccea6b-17fa-468f-921c-a97fc6957a8d)
+
 
 You should now have osTicket fully installed and working! 
 
